@@ -19,6 +19,8 @@ body{
 }
 .score-details h1{
     font-size: 45px;
+    width: 80%;
+  
 }
 .scores-stars{
     max-width: 980px;
@@ -147,6 +149,10 @@ body{
         grid-template-rows: 40% 20%;
         grid-template-columns: 1fr;
         text-align: center;
+   }
+   .score-details h1{
+       width: 100%;
+       margin: 0 auto;
    }
    .score-details{
        grid-row: 1;
